@@ -1,0 +1,58 @@
+header {
+  position: sticky;
+  top: 0px;
+  width: -webkit-fill-available;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #507caf;
+  border-bottom: 2px solid #000;
+  height: 70px;
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  .dragon-store__title {
+    color: #ebe2e2;
+    margin-left: -10px;
+    user-select: none;
+  }
+}
+
+.time-containers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dragon-store__title {
+  font-size: 2rem;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  user-select: none;
+}
+
+.time {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: aliceblue;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+@media (max-width: 400px) {
+  .main-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

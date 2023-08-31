@@ -1,0 +1,28 @@
+.second-container {
+  display: grid;
+  grid-template-columns: 200px auto 300px;
+}
+
+.side-bar {
+  background-color: rgb(207, 235, 235);
+}
+
+.home {
+  background-color: azure;
+}
+
+.article {
+  background-color: blanchedalmond;
+}
+
+.about-us__container {
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 900px) {
+  .second-container {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}

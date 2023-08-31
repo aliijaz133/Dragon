@@ -1,0 +1,71 @@
+.second-container {
+  display: grid;
+  grid-template-columns: 200px auto 300px;
+}
+
+.side-bar {
+  background-color: rgb(207, 235, 235);
+}
+
+.home {
+  background-color: azure;
+}
+
+.article {
+  background-color: blanchedalmond;
+}
+
+.colorful-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #fff;
+  color: #333;
+  border-radius: 5px;
+}
+
+textarea.form-input {
+  height: 100px;
+}
+
+.form-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #ff6f69;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+  background-color: #ff5f59;
+}
+
+@media (max-width: 900px) {
+  .second-container {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}

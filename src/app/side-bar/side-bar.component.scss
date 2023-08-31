@@ -1,0 +1,26 @@
+.list-container {
+  margin-left: -40px;
+}
+
+.button-list {
+  display: block;
+  background-color: rgb(68, 88, 82);
+  padding: 14px 0px;
+  border-bottom: 1px solid #fff;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button-list:hover {
+  background-color: rgb(41, 51, 48);
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.active {
+  color: #7fffd4;
+  font-weight: bold;
+}
